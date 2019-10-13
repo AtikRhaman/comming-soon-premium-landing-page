@@ -1,0 +1,1663 @@
+/*-----------------------------------------------------------------------------------
+    Template Name: Coming Soon Template
+    Template URI: http://ideaz13.com
+    Description: This is html5 Coming Soon template
+    Author: Ideaz13
+    Author URI: http://ideaz13.com
+    Version: 1.0
+-----------------------------------------------------------------------------------
+    
+    CSS INDEX
+    ===================
+	
+    1. Theme Default CSS (body, link color, section etc)
+
+-----------------------------------------------------------------------------------*/
+
+/*----------------------------------------*/
+/*  1.  Theme default CSS
+/*----------------------------------------*/
+html, body {height: 100%; overflow: hidden;}
+.floatleft {float:left}
+.floatright {float:right}
+.alignleft {float:left;margin-right:15px;margin-bottom: 15px}
+.alignright {float:right;margin-left:15px;margin-bottom: 15px}
+.aligncenter {display:block;margin:0 auto 15px}
+.textleft {text-align: left;}
+.textright {text-align: right;}
+.textcenter {text-align: center;}
+.bold {font-weight: bold;}a:focus {outline:0px solid}
+img {max-width:100%;height:auto}
+.fix {overflow:hidden}
+p {margin:0 0 15px;}
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 10px;
+}
+a {transition: all 0.3s ease 0s;text-decoration:none;}
+a:hover {
+  color: #ff7013;
+  text-decoration: none;
+}
+a:active, a:hover {
+  outline: 0 none;
+}
+a:focus {
+  text-decoration: none;
+}
+ul{
+list-style: outside none none;
+margin: 0;
+padding: 0
+}
+.clear{clear:both}
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #444444;
+}
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+/*----------------------------------------*/
+/*  2.  Style One
+/*----------------------------------------*/
+.style-1 {
+    background: rgba(0, 0, 0, 0.9);
+    height: 100vh;
+}
+.style-1.sports {
+    background: url("img/background/sports.jpg") no-repeat scroll center center / cover;
+}
+.style-1.watch {
+    background: url("img/background/watch.jpg") no-repeat scroll center center / cover;
+}
+.style-1 .content {
+    background: rgba(0, 0, 0, 0.55);
+    height: 100vh;
+    width: 100%;
+    margin-left: -15px; 
+    padding: 60px;
+    position: relative;
+    color: #ffffff;
+}
+.style-1 .content::after {
+    border-top: 100vh solid rgba(0, 0, 0, 0.55);
+    border-right: 22em solid transparent;
+    right: -22em;
+    content: "";
+    height: 0;
+    position: absolute;
+    top: 0;
+    width: 0;
+}
+.logo {
+    font-size: 26px;
+    color: #ffffff;
+}
+.style-1 .main-content {
+    width: 100%;
+    height: 74vh;
+    display: table-cell;
+    vertical-align:middle;
+}
+.style-1 .main-content h1 {
+    font-size: 34px; 
+    line-height: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    padding-bottom: 5px;
+}
+.style-1 .main-content h4 {
+    font-size: 18px; 
+    line-height: 25px;
+    padding-bottom: 40px;
+}
+.countdownOne {
+    display: block;
+}  
+.btn-outline, .btn-fill {
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 10px 35px;
+    color: #ffffff;
+    font-weight: 500;
+}
+.btn-outline {
+    border: 1px solid #ffffff;
+    margin-right: 10px;
+}
+.btn-outline:hover, .btn-outline:focus {
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    background: rgba(255, 255, 255, 0.035);
+    color: #ffffff;
+}
+.btn-fill {
+    background: rgba(7, 171, 34, 1);
+    padding: 12px 35px;
+}
+.btn-fill:hover, .btn-fill:focus {
+    background: rgba(7, 171, 34, .7);
+    color: #ffffff;
+    border: none;
+}
+.social {
+    overflow: hidden;
+    padding-top: 20px;
+}
+.social li {
+    padding-right: 20px;
+    float: left;
+}
+.social li:last-child {
+    padding-right: 0;
+}
+.social li a {
+    font-size: 16px;
+    color: #ffffff;
+    transition: 0.4s;
+    padding: 5px;
+}
+.social li a:hover {
+    color: #07ab22;
+}
+.modal-dialog {
+    margin: 10% auto;
+    width: 600px;
+}
+.modal-content {
+    background-color: #07ab22;
+    border-radius: 0;
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.25);
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    padding: 100px;
+    position: relative;
+}
+.modal-content h1 {
+    font-size: 24px;
+    font-weight: 700;
+    position: relative;
+    margin-bottom: 80px;
+    text-transform: uppercase;
+}
+.modal-content h1::after {
+    background: #ffffff;
+    bottom: -40px;
+    content: "";
+    height: 1px;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    width: 40px;
+}
+.modal-content p {
+    line-height: 23px;
+}
+.modal-content form {
+    position: relative;
+    padding-top: 40px;
+}
+.modal-content form input {
+    border: none;
+    border-bottom: 1px solid #ffffff; 
+    width: 100%;
+    background: transparent;
+    height: 50px;
+    transition: 0.5s;
+    padding-right: 75px;
+}
+.modal-content form input:focus {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.55); 
+    outline: none;
+}
+.modal-content form input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: rgba(255, 255, 255, 0.65) !important;
+}
+.modal-content form input::-moz-placeholder { /* Firefox 19+ */
+    color: rgba(255, 255, 255, 0.65) !important;
+}
+.modal-content form input:-ms-input-placeholder { /* IE 10+ */
+    color: rgba(255, 255, 255, 0.65) !important;
+}
+.modal-content form input:-moz-placeholder { /* Firefox 18- */
+    color: rgba(255, 255, 255, 0.65) !important;
+}
+.modal-content form input::placeholder {
+    color: rgba(255, 255, 255, 0.65) !important;
+}
+.modal-content form a {
+    padding: 14px 20px;
+    color: #000000;
+    background: #ffffff;
+    transition: 0.5s;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-size: 16px;
+}
+.modal-content form a:hover {
+    color: #ffffff;
+    background: #000000;
+}
+.modal-close {
+    bottom: 35px;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 21px;
+    position: absolute;
+    animation: 0.3s;
+    opacity: 0.6;
+}
+.modal-close:hover {
+    font-size: 26px;
+    bottom: 31px;
+    color: #ffffff;
+}
+/*----------------------------------------*/
+/*  3.  Style Two
+/*----------------------------------------*/
+.style-2 .bg {
+    background: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+    margin: 0 -15px 0 -30px;
+}
+.style-2 .bg.animal {
+    background: url("img/images/animal.jpg") no-repeat scroll center center / cover;
+}
+.style-2 .content {
+    height: 100vh;
+    margin-left: -15px; 
+    padding: 60px;
+    position: relative;
+    color: #ffffff;
+}
+.style-2 .logo {
+    font-size: 26px;
+    color: #ffffff;
+}
+.style-2 .main-content {
+    width: 100%;
+    height: 74vh;
+    display: table-cell;
+    vertical-align:middle;
+}
+.style-2 .main-content h1 {
+    font-size: 55px; 
+    line-height: 58px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+.style-2 .main-content h4 {
+    font-size: 18px; 
+    line-height: 25px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 40px;
+    text-transform: uppercase;
+}
+.style-2 .btn-fill {
+    background: rgba(255, 255, 255, 1) !important;
+    color: rgba(0, 0, 0, 1) !important;
+}
+.style-2 .btn-fill:hover, .btn-fill:focus {
+    background: rgba(255, 255, 255, .7) !important;
+}
+.style-2 .social li a:hover {
+    color: rgba(255, 255, 255, .5) !important;
+}
+/*----------------------------------------*/
+/*  4.  Style Three
+/*----------------------------------------*/
+.style-3 .bg {
+    background: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+    margin: 0 -15px;
+}
+.style-3 .bg.creative {
+    background: url("img/images/creative.jpg") no-repeat scroll center center / cover;
+}
+.style-3 .content {
+    height: 100vh;
+    margin: 0 -15px; 
+    padding: 60px;
+    position: relative;
+    color: #ffffff;
+}
+.style-3 .logo {
+    font-size: 26px;
+    color: #ffffff;
+}
+.style-3 .main-content {
+    width: 100%;
+    height: 74vh;
+    display: table-cell;
+    vertical-align:middle;
+}
+.style-3 .main-content h1 {
+    font-size: 55px; 
+    line-height: 58px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+.style-3 .main-content h4 {
+    font-size: 18px; 
+    line-height: 25px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 40px;
+    text-transform: uppercase;
+}
+.style-3 .btn-fill {
+    background: rgba(255, 255, 255, 1) !important;
+    color: rgba(0, 0, 0, 1) !important;
+}
+.style-3 .btn-fill:hover, .btn-fill:focus {
+    background: rgba(255, 255, 255, .7) !important;
+}
+.style-3 .social {
+    display: inline-block;
+}
+.style-3 .social li a:hover {
+    color: rgba(255, 255, 255, .5) !important;
+}
+.style-3 .social li:last-child {
+  padding-right: 30px;
+}
+.style-3 .subscribe  {
+    display: inline-block;
+    padding: 0 0 0 20px;
+    position: relative;
+    width: 70%;
+    float: right;
+}
+.style-3 .subscribe form input {
+    border: none;
+    width: 100%;
+    background: #ffffff;
+    height: 35px;
+    transition: 0.5s;
+    border-radius: 20px;
+    margin-top: -35px;
+    position: absolute;
+    padding: 0 15px;
+    color: #000000;
+}
+.style-3 .subscribe form input:focus {
+    background: rgba(255, 255, 255, 0.80); 
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.40);
+    outline: none;
+}
+.style-3 .subscribe form a {
+    background: #673fb4;
+    border: 2px solid #ffffff;
+    border-radius: 20px;
+    bottom: 0;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 12px;
+    height: 35px;
+    line-height: 33px;
+    padding: 0 23px;
+    position: absolute;
+    right: -21px;
+    text-transform: uppercase;
+    transition: all 0.5s ease 0s;
+}
+.style-3 .subscribe form a:hover {
+    border: 2px solid #673fb4;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.10);
+}
+/*----------------------------------------*/
+/*  4.  Style Four
+/*----------------------------------------*/
+.style-4 .bg {
+    background: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+    position: relative;
+    margin: 0 -15px;
+}
+.style-4 .bg::before {
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background: #2e71f2;
+}
+.style-4 .bg.creative2 {
+    background: url("img/images/creative2.jpg") no-repeat scroll center center / cover;
+}
+.style-4 .content {
+    height: 100vh;
+    margin: 0 -15px; 
+    padding: 60px;
+    position: relative;
+    color: #2e71f2;
+    background: #ffffff;
+}
+.style-4 .logo {
+    font-size: 26px;
+    color: #2e71f2;
+}
+.style-4 .main-content {
+    width: 100%;
+    height: 74vh;
+    display: table-cell;
+    vertical-align:middle;
+}
+.style-4 .main-content h2 {
+    font-size: 34px; 
+    line-height: 55px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    padding-bottom: 5px;
+}
+.style-4 .social li a {
+    color: #2e71f2;
+}
+.style-4 .social li a:hover {
+    color: rgba(0, 0, 0, .5) !important;
+}
+.style-4 .subscribe {
+    display: inline-block;
+    float: left;
+    padding: 20px 0 0 0;
+    position: relative;
+    width: 70%;
+}
+.style-4 .subscribe form input {
+    background: #ffffff;
+    border: 1px solid #2e71f2;
+    color: #000000;
+    height: 35px;
+    margin-top: -35px;
+    padding: 0 15px;
+    position: inherit;
+    transition: all 0.5s ease 0s;
+    border-radius: 20px;
+    width: 100%;
+}
+.style-4 .subscribe form input:focus {
+    border: 1px solid rgba(0, 0, 0, 0.20);
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.10);
+    outline: none;
+}
+.style-4 .subscribe form a {
+    background: #2e71f2;
+    border: 2px solid #2e71f2;
+    border-radius: 20px;
+    bottom: 0;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 12px;
+    height: 35px;
+    line-height: 33px;
+    padding: 0 23px;
+    position: absolute;
+    right: 0;
+    text-transform: uppercase;
+    transition: all 0.5s ease 0s;
+}
+.style-4 .subscribe form a:hover {
+    border: 2px solid rgba(0, 0, 0, 0.0) !important;
+    background: rgba(0, 0, 0, 0.60) !important; 
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.10);
+}
+.style-4 .subscribe form:hover input {
+    border: 1px solid rgba(0, 0, 0, 0.20) !important;
+}
+/*----------------------------------------*/
+/*  4.  Style Five
+/*----------------------------------------*/
+.style-5 {
+    height: 100vh;
+    padding: 60px;
+    position: relative;
+    background: rgba(0, 0, 0, 0);
+    color: #ffffff;
+}
+.style-5::before {
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background: #000000;
+}
+.style-5.restaurant {
+    background: url("img/background/restaurant.jpg") no-repeat scroll center center / cover ;
+}
+.style-5.baby {
+    background: url("img/background/baby.jpg") no-repeat scroll center center / cover ;
+}
+.style-5 .logo {
+    font-size: 26px;
+    color: #ffffff;
+}
+.style-5 .main-content {
+    width: 100%;
+    height: 70vh;
+    display: table;
+}
+.style-5 .main-content-center {
+    display: table-cell;
+    vertical-align:middle;
+    text-align: center;
+}
+.style-5 .main-content h1 {
+    font-size: 55px; 
+    line-height: 58px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+.style-5 .main-content h4 {
+    font-size: 18px; 
+    line-height: 25px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 40px;
+    text-transform: uppercase;
+}
+.style-5 .social {
+    padding-top: 50px;
+}
+.style-5 .social li a:hover {
+    color: rgba(255, 255, 255, .5) !important;
+}
+/*----------------------------------------*/
+/*  5.  Style Six
+/*----------------------------------------*/
+.style-6 {
+    height: 100vh;
+    padding: 60px;
+    position: relative;
+    background: rgba(0, 0, 0, 0);
+    color: #ffffff;
+}
+.style-6::before {
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background: #000000;
+}
+.style-6.digital-agencacy2 {
+    background: url("img/background/digital-agencacy2.jpg") no-repeat scroll center center / cover ;
+}
+.style-6 .logo {
+    font-size: 26px;
+    color: #ffffff;
+}
+.style-6 .main-content {
+    width: 100%;
+    height: 70vh;
+    display: table;
+}
+.style-6 .main-content-center {
+    display: table-cell;
+    vertical-align:middle;
+    text-align: left;
+}
+.style-6 .main-content h1 {
+    font-size: 55px; 
+    line-height: 58px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+.style-6 .main-content h4 {
+    font-size: 28px; 
+    line-height: 25px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+}
+.style-6 .social {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.style-6 .social ul{
+    display: flex;
+}
+.style-6 .social li a:hover {
+    color: rgba(255, 255, 255, .5) !important;
+}
+.style-6 .more {
+    bottom: -20px;
+    position: absolute;
+    right: -25px;
+    font-size: 26px;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0);
+    text-align: center;
+    line-height: 55px;
+    transition: 0.3s;
+}
+.style-6 .more:hover  {
+    background: rgba(255, 255, 255, .35);
+}
+.style-6 .more a {
+    color: #ffffff;
+    transition: 0.3s;
+}
+/*----------------------------------------*/
+/*  6.  Style Seven
+/*----------------------------------------*/
+.style-7 {
+    height: 100vh;
+    padding: 60px;
+    position: relative;
+    background: rgba(0, 0, 0, 0);
+    color: #ffffff;
+}
+.style-7::before {
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background: #000000;
+}
+.style-7::after {
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: .5;
+    position: absolute;
+    top: 0;
+    width: 85px;
+    background: #000000;
+}
+.style-7.digital-agencacy3 {
+    background: url("img/background/digital-agencacy3.jpg") no-repeat scroll center center / cover ;
+}
+.style-7 .logo {
+    font-size: 26px;
+    color: #ffffff;
+    position: absolute;
+    left: -37px;
+    z-index: 1;
+}
+.style-7 .main-content {
+    width: 100%;
+    height: 84vh;
+    display: table;
+}
+.style-7 .main-content-center {
+    display: table-cell;
+    vertical-align:middle;
+    text-align: center;
+}
+.style-7 .main-content h1 {
+    font-size: 55px; 
+    line-height: 58px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+.style-7 .main-content h4 {
+    font-size: 28px; 
+    line-height: 25px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+}
+.style-7 ul.countdownTwo {
+    font-size: 30px;
+    text-align: center;
+    display: inline-block;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+}
+.style-7 .countdownTwo li {
+    padding-right: 20px;
+    float: left;
+}
+.style-7 .social {
+    display: inline-block;
+    justify-content: center;
+    position: absolute;
+    z-index: 1;
+    left: -30px;
+    bottom: -30px;
+}
+.style-7 .social ul {
+    display: inline-table;
+}
+.style-7 .social li {
+    float: inherit;
+    padding-right: 0;
+    padding-bottom: 20px;
+}
+.style-7 .social li a:hover {
+    color: rgba(255, 255, 255, .5) !important;
+}
+.style-7 .more {
+    bottom: -20px;
+    position: absolute;
+    right: -25px;
+    font-size: 26px;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0);
+    text-align: center;
+    line-height: 55px;
+    transition: 0.3s;
+}
+.style-7 .more:hover  {
+    background: rgba(255, 255, 255, .35);
+}
+.style-7 .more a {
+    color: #ffffff;
+    transition: 0.3s;
+}
+/*----------------------------------------*/
+/*  5.  Style Eight
+/*----------------------------------------*/
+.style-8 {
+    height: 100vh;
+    padding: 60px;
+    position: relative;
+    background: rgba(0, 0, 0, 0);
+    color: #ffffff;
+}
+.style-8.creative3 {
+    background: url("img/background/creative3.jpg") no-repeat scroll center center / cover ;
+}
+.style-8 .logo {
+    font-size: 26px;
+    color: #000000;
+}
+.style-8 .main-content {
+    width: 100%;
+    height: 75vh;
+    display: table;
+    color: #000000;
+}
+.style-8 .main-content-center {
+    display: table-cell;
+    vertical-align:middle;
+    text-align: left;
+}
+.style-8 .main-content h1 {
+    font-size: 55px; 
+    line-height: 58px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    padding-bottom: 5px;
+}
+.style-8 .main-content h5 {
+    font-size: 18px; 
+    line-height: 25px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    color: #686868;
+    font-style: italic;
+    padding-top: 30px;
+    line-height: 28px;
+}
+.style-8 .main-content h5 span {
+    font-style: italic;
+    font-weight: 500;
+    display: block;
+    padding-top: 10px;
+}
+.style-8 .social li a {
+    color: #000000;
+}
+.style-8 .social li a:hover {
+    color: rgba(0, 0, 0, .5) !important;
+}
+.style-8 .subscribe {
+    width: 400px;
+    float: right;
+}
+.style-8 .subscribe form {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+}
+.style-8 .subscribe form input {
+    background: #ffffff;
+    border: 1px solid #000000;
+    color: #000000;
+    height: 35px;
+    margin-top: 10px;
+    padding: 0 15px;
+    position: inherit;
+    transition: all 0.5s ease 0s;
+    border-radius: 20px;
+    width: 100%;
+}
+.style-8 .subscribe form input:focus {
+    border: 1px solid rgba(0, 0, 0, 0.20);
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.10);
+    outline: none;
+}
+.style-8 .subscribe form a {
+    background: #000000;
+    border: 2px solid #000000;
+    border-radius: 20px;
+    bottom: 0;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 12px;
+    height: 35px;
+    line-height: 33px;
+    padding: 0 23px;
+    position: absolute;
+    right: 0;
+    text-transform: uppercase;
+    transition: all 0.5s ease 0s;
+}
+.style-8 .subscribe form a:hover {
+    border: 2px solid rgba(0, 0, 0, 0.0) !important;
+    background: rgba(0, 0, 0, 0.80) !important; 
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.10);
+}
+.style-8 .subscribe form:hover input {
+    border: 1px solid rgba(0, 0, 0, 0.20) !important;
+}
+/*----------------------------------------*/
+/*  5.  Style Eight
+/*----------------------------------------*/
+.style-9 {
+    height: 100vh;
+    position: relative;
+    background: rgba(0, 0, 0, 0);
+    color: #ffffff;
+}
+.style-9.creative4 {
+    background: url("img/background/creative4.jpg") no-repeat scroll center center / cover ;
+}
+.style-9 .content {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 40px;
+}
+.style-9 .content h1 {
+    font-size: 36px; 
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+.style-9 .social li a {
+    color: #ffffff;
+}
+.style-9 .social li a:hover {
+    color: rgba(250, 250, 250, .5) !important;
+}
+.style-9 .subscribe {
+    width: 300px;
+    float: right;
+}
+.style-9 .subscribe form {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+}
+.style-9 .subscribe form input {
+    background: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.20);
+    color: #000000;
+    height: 35px;
+    margin-top: 10px;
+    padding: 0 15px;
+    position: inherit;
+    transition: all 0.5s ease 0s;
+    border-radius: 20px;
+    width: 100%;
+}
+.style-9 .subscribe form input:focus {
+    border: 1px solid rgba(0, 0, 0, 0.40);
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.30);
+    outline: none;
+}
+.style-9 .subscribe form a {
+    background: rgba(0, 0, 0, 0.90);
+    border: 2px solid #000000;
+    border-radius: 20px;
+    bottom: 0;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 12px;
+    height: 35px;
+    line-height: 33px;
+    padding: 0 23px;
+    position: absolute;
+    right: 0;
+    text-transform: uppercase;
+    transition: all 0.5s ease 0s;
+}
+.style-9 .subscribe form a:hover {
+    border: 2px solid rgba(0, 0, 0, 0.0) !important;
+    background: rgba(0, 0, 0, 0.80) !important; 
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.10);
+}
+.style-9 .subscribe form:hover input {
+    border: 1px solid rgba(0, 0, 0, 0.20) !important;
+}
+/*----------------------------------------*/
+/*  5.  Style Eight
+/*----------------------------------------*/
+.style-10 {
+    height: 100vh;
+    position: relative;
+    background: rgba(0, 0, 0, 0);
+    color: #ffffff;
+    padding:0 10%;
+}
+.style-10.business2 {
+    background: url("img/background/business2.jpg") no-repeat scroll center center / cover ;
+}
+.style-10 .logo {
+    font-size: 26px;
+    color: #000000;
+}
+.style-10 .main-content {
+    width: 80%;
+    height: 75vh;
+    display: table;
+    color: #000000;
+}
+.style-10 .main-content-center {
+    display: table-cell;
+    vertical-align:middle;
+    text-align: left;
+}
+.style-10 .main-content h1 {
+    font-size: 55px; 
+    line-height: 58px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    padding-bottom: 5px;
+    letter-spacing: -2px;
+    color: #ffffff;
+}
+.style-10 .btn-fill {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 500;
+    background: #2e71f2;
+    padding: 12px 35px;
+    border-radius: 30px;
+    float: left;
+    margin-right: 20px;
+    transition: 0.5s;
+}
+.style-10 .btn-fill:hover, .style-10 .btn-fill:focus {
+    background: #ffffff;
+    color: #2e71f2;
+    border: none;
+}
+.style-10 form {
+    float: left;
+}
+.style-10 .social li a {
+    color: #000000;
+}
+.style-10 .social li a:hover {
+    color: rgba(0, 0, 0, .5) !important;
+}
+.style-10 form {
+    width: 300%;
+}
+.style-10 form input {
+    background: #ffffff;
+    border: 1px solid #000000;
+    color: #000000;
+    height: 35px;
+    margin-top: 10px;
+    padding: 0 15px;
+    transition: all 0.5s ease 0s;
+    border-radius: 20px;
+    width: 100%;
+}
+.style-10 form input:focus {
+    border: 1px solid rgba(0, 0, 0, 0.20);
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.10);
+    outline: none;
+}
+/*.style-10 form a {
+    background: #000000;
+    border: 2px solid #000000;
+    border-radius: 20px;
+    bottom: 0;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 12px;
+    height: 35px;
+    line-height: 33px;
+    padding: 0 23px;
+    position: absolute;
+    right: 0;
+    text-transform: uppercase;
+    transition: all 0.5s ease 0s;
+}
+.style-10 form a:hover {
+    border: 2px solid rgba(0, 0, 0, 0.0) !important;
+    background: rgba(0, 0, 0, 0.80) !important; 
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.10);
+}
+.style-10 form:hover input {
+    border: 1px solid rgba(0, 0, 0, 0.20) !important;
+}*/
+/*----------------------------------------*/
+/*  7.  Color Theme
+/*----------------------------------------*/
+/*Theme Blue */
+.theme-blue .btn-fill {
+    background: rgba(46, 113, 242, 1);
+}
+.theme-blue .btn-fill:hover, .theme-blue .btn-fill:focus {
+    background: rgba(46, 113, 242, .7);
+    color: #ffffff;
+}
+.theme-blue .social li a:hover {
+    color: #2e71f2;
+}
+.theme-blue .modal-content {
+    background-color: #2e71f2;
+}
+.theme-blue .style-2 .content, .theme-blue .style-3 .content {
+    background: #2e71f2;
+}
+.theme-blue .more:hover  {
+    background: #2e71f2;
+}
+.theme-blue .style-3 .subscribe form a {
+    background: #2e71f2;
+}
+.theme-blue .style-3 .subscribe form a:hover {
+    border: 2px solid #2e71f2;
+}
+.theme-blue .style-4 .content, .style-4 .logo, .theme-blue .style-4 .social li a  {
+    color: #2e71f2;
+}
+.theme-blue .style-4 .bg::before, .theme-blue .style-4 .subscribe form a, .theme-blue .style-8 .subscribe form a {
+    background: #2e71f2;
+}
+.theme-blue .style-4 .subscribe form input, .theme-blue .style-8 .subscribe form input, .theme-blue .style-4 .subscribe form a, .theme-blue .style-8 .subscribe form a {
+    border-color: #2e71f2;
+}
+.theme-blue .style-8 .logo, .theme-blue .style-8 .main-content, .theme-blue .style-8 .main-content h5, .theme-blue .style-8 .social li a  {
+    color: #2e71f2;
+}
+/*Theme Purple */
+.theme-purple .btn-fill {
+    background: rgba(103, 63, 180, 1);
+}
+.theme-purple .btn-fill:hover, .theme-purple .btn-fill:focus {
+    background: rgba(103, 63, 180, .7);
+    color: #ffffff;
+}
+.theme-purple .social li a:hover {
+    color: #673fb4;
+}
+.theme-purple .modal-content {
+    background-color: #673fb4;
+}
+.theme-purple .style-2 .content, .theme-purple .style-3 .content {
+    background: #673fb4;
+}
+.theme-purple .more:hover  {
+    background: #673fb4;
+}
+.theme-purple .style-3 .subscribe form a {
+    background: #673fb4;
+}
+.theme-purple .style-3 .subscribe form a:hover {
+    border: 2px solid #673fb4;
+}
+.theme-purple .style-4 .bg::before, .theme-purple .style-4 .subscribe form a {
+    background: #673fb4;
+}
+.theme-purple .style-4 .content, .style-4 .logo, .theme-purple .style-4 .social li a  {
+    color: #673fb4;
+}
+.theme-purple .style-4 .subscribe form input, .theme-purple .style-4 .subscribe form a {
+    border-color: #673fb4;
+}
+.theme-purple .style-4 .bg::before, .theme-purple .style-4 .subscribe form a, .theme-purple .style-8 .subscribe form a {
+    background: #673fb4;
+}
+.theme-purple .style-4 .subscribe form input, .theme-purple .style-8 .subscribe form input, .theme-purple .style-4 .subscribe form a, .theme-purple .style-8 .subscribe form a {
+    border-color: #673fb4;
+}
+.theme-purple .style-8 .logo, .theme-purple .style-8 .main-content, .theme-purple .style-8 .main-content h5, .theme-purple .style-8 .social li a  {
+    color: #673fb4;
+}
+/*Theme Red */
+.theme-red .btn-fill {
+    background: rgba(231, 22, 9, 1);
+}
+.theme-red .btn-fill:hover, .theme-red .btn-fill:focus {
+    background: rgba(231, 22, 9, .7);
+    color: #ffffff;
+}
+.theme-red .social li a:hover {
+    color: #e71609;
+}
+.theme-red .modal-content {
+    background-color: #e71609;
+}
+.theme-red .style-2 .content, .theme-red .style-3 .content {
+    background: #e71609;
+}
+.theme-red .more:hover  {
+    background: #e71609;
+}
+.theme-red .style-3 .subscribe form a {
+    background: #e71609;
+}
+.theme-red .style-3 .subscribe form a:hover {
+    border: 2px solid #e71609;
+}
+.theme-red .style-4 .content, .style-4 .logo, .theme-red .style-4 .social li a  {
+    color: #e71609;
+}
+.theme-red .style-4 .bg::before, .theme-red .style-4 .subscribe form a, .theme-red .style-8 .subscribe form a {
+    background: #e71609;
+}
+.theme-red .style-4 .subscribe form input, .theme-red .style-8 .subscribe form input, .theme-red .style-4 .subscribe form a, .theme-red .style-8 .subscribe form a {
+    border-color: #e71609;
+}
+.theme-red .style-8 .logo, .theme-red .style-8 .main-content, .theme-red .style-8 .main-content h5, .theme-red .style-8 .social li a  {
+    color: #e71609;
+}
+/*Theme Moonstone Blue */
+.theme-moonstone-blue .btn-fill {
+    background: rgba(89, 132, 157, 1);
+}
+.theme-moonstone-blue .btn-fill:hover, .theme-moonstone-blue .btn-fill:focus {
+    background: rgba(89, 132, 157, .7);
+    color: #ffffff;
+}
+.theme-moonstone-blue .social li a:hover {
+    color: #59849d;
+}
+.theme-moonstone-blue .modal-content {
+    background-color: #59849d;
+}
+.theme-moonstone-blue .style-2 .content, .theme-moonstone-blue .style-3 .content {
+    background: #59849d;
+}
+.theme-moonstone-blue .more:hover  {
+    background: #59849d;
+}
+.theme-moonstone-blue .style-3 .subscribe form a {
+    background: #59849d;
+}
+.theme-moonstone-blue .style-3 .subscribe form a:hover {
+    border: 2px solid #59849d;
+}
+.theme-moonstone-blue .style-4 .content, .style-4 .logo, .theme-moonstone-blue .style-4 .social li a  {
+    color: #59849d;
+}
+.theme-moonstone-blue .style-4 .bg::before, .theme-moonstone-blue .style-4 .subscribe form a, .theme-moonstone-blue .style-8 .subscribe form a {
+    background: #59849d;
+}
+.theme-moonstone-blue .style-4 .subscribe form input, .theme-moonstone-blue .style-8 .subscribe form input, .theme-moonstone-blue .style-4 .subscribe form a, .theme-moonstone-blue .style-8 .subscribe form a {
+    border-color: #59849d;
+}
+.theme-moonstone-blue .style-8 .logo, .theme-moonstone-blue .style-8 .main-content, .theme-moonstone-blue .style-8 .main-content h5, .theme-moonstone-blue .style-8 .social li a  {
+    color: #59849d;
+}
+/*Theme Pink*/
+.theme-pink .btn-fill {
+    background: rgba(222, 25, 62, 1);
+}
+.theme-pink .btn-fill:hover, .theme-pink .btn-fill:focus {
+    background: rgba(222, 25, 62, .7);
+    color: #ffffff;
+}
+.theme-pink .social li a:hover {
+    color: #de193e;
+}
+.theme-pink .modal-content {
+    background-color: #de193e;
+}
+.theme-pink .style-2 .content, .theme-pink .style-3 .content {
+    background: #de193e;
+}
+.theme-pink .more:hover  {
+    background: #de193e;
+}
+.theme-pink .style-3 .subscribe form a {
+    background: #de193e;
+}
+.theme-pink .style-3 .subscribe form a:hover {
+    border: 2px solid #de193e;
+}
+.theme-pink .style-4 .content, .style-4 .logo, .theme-pink .style-4 .social li a  {
+    color: #de193e;
+}
+.theme-pink .style-4 .bg::before, .theme-pink .style-4 .subscribe form a, .theme-pink .style-8 .subscribe form a {
+    background: #de193e;
+}
+.theme-pink .style-4 .subscribe form input, .theme-pink .style-8 .subscribe form input, .theme-pink .style-4 .subscribe form a, .theme-pink .style-8 .subscribe form a {
+    border-color: #de193e;
+}
+.theme-pink .style-8 .logo, .theme-pink .style-8 .main-content, .theme-pink .style-8 .main-content h5, .theme-pink .style-8 .social li a  {
+    color: #de193e;
+}
+/*Theme Orange*/
+.theme-orange .btn-fill {
+    background: rgba(251, 132, 20, 1);
+}
+.theme-orange .btn-fill:hover, .theme-orange .btn-fill:focus {
+    background: rgba(251, 132, 20, .7);
+    color: #ffffff;
+}
+.theme-orange .social li a:hover {
+    color: #fb8414;
+}
+.theme-orange .modal-content {
+    background-color: #fb8414;
+}
+.theme-orange .style-2 .content, .theme-orange .style-3 .content {
+    background: #fb8414;
+}
+.theme-orange .more:hover  {
+    background: #fb8414;
+}
+.theme-orange .style-3 .subscribe form a {
+    background: #fb8414;
+}
+.theme-orange .style-3 .subscribe form a:hover {
+    border: 2px solid #fb8414;
+}
+.theme-orange .style-4 .content, .style-4 .logo, .theme-orange .style-4 .social li a  {
+    color: #fb8414;
+}
+.theme-orange .style-4 .bg::before, .theme-orange .style-4 .subscribe form a, .theme-orange .style-8 .subscribe form a {
+    background: #fb8414;
+}
+.theme-orange .style-4 .subscribe form input, .theme-orange .style-8 .subscribe form input, .theme-orange .style-4 .subscribe form a, .theme-orange .style-8 .subscribe form a {
+    border-color: #fb8414;
+}
+.theme-orange .style-8 .logo, .theme-orange .style-8 .main-content, .theme-orange .style-8 .main-content h5, .theme-orange .style-8 .social li a  {
+    color: #fb8414;
+}
+/*Theme Yellow*/
+.theme-yellow .btn-fill {
+    background: rgba(199, 183, 48, 1);
+}
+.theme-yellow .btn-fill:hover, .theme-yellow .btn-fill:focus {
+    background: rgba(199, 183, 48, .7);
+    color: #ffffff;
+}
+.theme-yellow .social li a:hover {
+    color: #c7b730;
+}
+.theme-yellow .modal-content {
+    background-color: #c7b730;
+}
+.theme-yellow .style-2 .content, .theme-yellow .style-3 .content {
+    background: #c7b730;
+}
+.theme-yellow .more:hover  {
+    background: #c7b730;
+}
+.theme-yellow .style-3 .subscribe form a {
+    background: #c7b730;
+}
+.theme-yellow .style-3 .subscribe form a:hover {
+    border: 2px solid #c7b730;
+}
+.theme-yellow .style-4 .content, .style-4 .logo, .theme-yellow .style-4 .social li a  {
+    color: #c7b730;
+}
+.theme-yellow .style-4 .bg::before, .theme-yellow .style-4 .subscribe form a, .theme-yellow .style-8 .subscribe form a {
+    background: #c7b730;
+}
+.theme-yellow .style-4 .subscribe form input, .theme-yellow .style-8 .subscribe form input, .theme-yellow .style-4 .subscribe form a, .theme-yellow .style-8 .subscribe form a {
+    border-color: #c7b730;
+}
+.theme-yellow .style-8 .logo, .theme-yellow .style-8 .main-content, .theme-yellow .style-8 .main-content h5, .theme-yellow .style-8 .social li a  {
+    color: #c7b730;
+}
+/*Theme Green*/
+.theme-green .btn-fill {
+    background: rgba(7, 171, 34, 1);
+}
+.theme-green .btn-fill:hover, .theme-green .btn-fill:focus {
+    background: rgba(7, 171, 34, .7);
+    color: #ffffff;
+}
+.theme-green .social li a:hover {
+    color: #07ab22;
+}
+.theme-green .modal-content {
+    background-color: #07ab22;
+}
+.theme-green .style-2 .content, .theme-green .style-3 .content {
+    background: #07ab22;
+}
+.theme-green .more:hover  {
+    background: #07ab22;
+}
+.theme-green .style-3 .subscribe form a {
+    background: #07ab22;
+}
+.theme-green .style-3 .subscribe form a:hover {
+    border: 2px solid #07ab22;
+}
+.theme-green .style-4 .content, .style-4 .logo, .theme-green .style-4 .social li a  {
+    color: #07ab22;
+}
+.theme-green .style-4 .bg::before, .theme-green .style-4 .subscribe form a, .theme-green .style-8 .subscribe form a {
+    background: #07ab22;
+}
+.theme-green .style-4 .subscribe form input, .theme-green .style-8 .subscribe form input, .theme-green .style-4 .subscribe form a, .theme-green .style-8 .subscribe form a {
+    border-color: #07ab22;
+}
+.theme-green .style-8 .logo, .theme-green .style-8 .main-content, .theme-green .style-8 .main-content h5, .theme-green .style-8 .social li a  {
+    color: #07ab22;
+}
+/*Theme Cyan*/
+.theme-cyan .btn-fill {
+    background: rgba(82, 170, 255, 1);
+}
+.theme-cyan .btn-fill:hover, .theme-cyan .btn-fill:focus {
+    background: rgba(82, 170, 255, .7);
+}
+.theme-cyan .social li a:hover {
+    color: #52aaff;
+}
+.theme-cyan .modal-content {
+    background-color: #52aaff;
+}
+.theme-cyan .style-2 .content, .theme-cyan .style-3 .content {
+    background: #52aaff;
+}
+.theme-cyan .more:hover  {
+    background: #52aaff;
+}
+.theme-cyan .style-3 .subscribe form a {
+    background: #52aaff;
+}
+.theme-cyan .style-3 .subscribe form a:hover {
+    border: 2px solid #52aaff;
+}
+.theme-cyan .style-4 .content, .style-4 .logo, .theme-cyan .style-4 .social li a  {
+    color: #52aaff;
+}
+.theme-cyan .style-4 .bg::before, .theme-cyan .style-4 .subscribe form a, .theme-cyan .style-8 .subscribe form a {
+    background: #52aaff;
+}
+.theme-cyan .style-4 .subscribe form input, .theme-cyan .style-8 .subscribe form input, .theme-cyan .style-4 .subscribe form a, .theme-cyan .style-8 .subscribe form a {
+    border-color: #52aaff;
+}
+.theme-cyan .style-8 .logo, .theme-cyan .style-8 .main-content, .theme-cyan .style-8 .main-content h5, .theme-cyan .style-8 .social li a  {
+    color: #52aaff;
+}
+/*Theme White*/
+.theme-white .btn-fill {
+    background: #ddded6;
+    color: rgba(0, 0, 0, 0.95)
+}
+.theme-white .btn-fill:hover, .theme-white .btn-fill:focus {
+    background: #ffffff;
+}
+.theme-white .social li a:hover {
+    color: rgba(255, 255, 255, 0.5);
+}
+.theme-white .modal-content {
+    background-color: #ffffff;
+    color: rgba(0, 0, 0, 0.95);
+}
+.theme-white .style-2 .content, .theme-white .style-3 .content {
+    background: #ffffff;
+}
+.theme-white .modal-content h1::after {
+    background: rgba(0, 0, 0, 0.95);
+}
+.theme-white .modal-content form input {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.95); 
+}
+.theme-white .modal-content form input:focus {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.25); 
+}
+.theme-white .modal-content form input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: rgba(0, 0, 0, 0.65) !important;
+}
+.theme-white .modal-content form input::-moz-placeholder { /* Firefox 19+ */
+    color: rgba(0, 0, 0, 0.65) !important;
+}
+.theme-white .modal-content form input:-ms-input-placeholder { /* IE 10+ */
+    color: rgba(0, 0, 0, 0.65) !important;
+}
+.theme-white .modal-content form input:-moz-placeholder { /* Firefox 18- */
+    color: rgba(0, 0, 0, 0.65) !important;
+}
+.theme-white .modal-content form input::placeholder {
+    color: rgba(0, 0, 0, 0.65) !important;
+}
+.theme-white .modal-content form a {
+    color: #ffffff;
+    background: #000000;
+}
+.theme-white .modal-content form a:hover {
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0.75);
+}
+.theme-white .modal-close {
+    color: #000000;
+}
+.theme-white .modal-close:hover {
+    color: #000000;
+}
+.theme-white .style-3 .subscribe form a {
+    background: #000000;
+}
+.theme-white .style-3 .subscribe form a:hover {
+    border: 2px solid #000000;
+}
+.theme-white .style-3 .content {
+  color: #000000;
+}
+.theme-white .style-3 .btn-outline {
+    border: 1px solid #000000;
+    color: #000000;
+}
+.theme-white .style-3 .btn-outline:hover {
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    color: rgba(0, 0, 0, 0.8);
+}
+.theme-white .style-3 .btn-fill {
+    background: #000000 !important;
+    color: #ffffff !important;
+}
+.theme-white .style-3 .btn-fill:hover {
+    background: rgba(0, 0, 0, 0.13) !important;
+    color: #000000 !important;
+}
+.theme-white .style-3 .social li a {
+    color: rgba(0, 0, 0, 1) !important;
+}
+.theme-white .style-3 .social li a:hover {
+    color: rgba(0, 0, 0, 0.4) !important;
+}
+.theme-white .style-3 .subscribe form input {
+    background: #f9f9f9;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.1);
+}
+.theme-white .style-4 .bg::before, .theme-white .style-4 .subscribe form a {
+    background: #000000;
+}
+.theme-white .style-4 .content, .style-4 .logo, .theme-white .style-4 .social li a  {
+    color: #000000;
+}
+.theme-white .style-4 .subscribe form input, .theme-white .style-4 .subscribe form a {
+    border-color: #000000;
+}
+/*Theme Light*/
+.theme-light .style-3 .content {
+  color: #000000;
+}
+.theme-light .btn-fill {
+    background: #c9d8ed;
+    color: rgba(0, 0, 0, 0.95)
+}
+.theme-light .style-3 .btn-outline {
+    border: 1px solid #000000;
+    color: #000000;
+}
+.theme-light .style-3 .btn-outline:hover {
+    border: 1px solid rgba(0, 0, 0, 0.35);
+    color: rgba(0, 0, 0, 0.8);
+}
+.theme-light .style-3 .btn-fill {
+    background: #000000 !important;
+    color: #ffffff !important;
+}
+.theme-light .style-3 .btn-fill:hover {
+    background: #ffffff !important;
+    color: #000000 !important;
+}
+.theme-light .style-3 .btn-fill:hover, .theme-light .style-3 .btn-fill:focus {
+    background: rgba(201, 216, 237, 0.7);
+}
+.theme-light .btn-fill:hover, .theme-light .btn-fill:focus {
+    background: rgba(201, 216, 237, 0.7);
+}
+.theme-light .style-3 .social li a {
+    color: #000000;
+}
+.theme-light .style-3 .social li a:hover {
+    color: rgba(0, 0, 0, 0.5) !important;
+}
+.theme-light .social li a:hover {
+    color: #c9d8ed;
+}
+.theme-light .modal-content {
+    background-color: #c9d8ed;
+    color: rgba(0, 0, 0, 0.95);
+}
+.theme-light .style-2 .content, .theme-light .style-3 .content {
+    background: #c9d8ed;
+}
+.theme-light .modal-content h1::after {
+    background: rgba(0, 0, 0, 0.95);
+}
+.theme-light .modal-content form input {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.95); 
+}
+.theme-light .modal-content form input:focus {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.25); 
+}
+.theme-light .modal-content form input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: rgba(0, 0, 0, 0.65) !important;
+}
+.theme-light .modal-content form input::-moz-placeholder { /* Firefox 19+ */
+    color: rgba(0, 0, 0, 0.65) !important;
+}
+.theme-light .modal-content form input:-ms-input-placeholder { /* IE 10+ */
+    color: rgba(0, 0, 0, 0.65) !important;
+}
+.theme-light .modal-content form input:-moz-placeholder { /* Firefox 18- */
+    color: rgba(0, 0, 0, 0.65) !important;
+}
+.theme-light .modal-content form input::placeholder {
+    color: rgba(0, 0, 0, 0.65) !important;
+}
+.theme-light .modal-content form a {
+    color: #ffffff;
+    background: #000000;
+}
+.theme-light .modal-content form a:hover {
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0.75);
+}
+.theme-light .modal-close {
+    color: #000000;
+}
+.theme-light .modal-close:hover {
+    color: #000000;
+}
+.theme-light .style-3 .subscribe form a {
+    background: #000000;
+}
+.theme-light .style-3 .subscribe form a:hover {
+    border: 2px solid #000000;
+}
+.theme-light .style-4 .bg::before, .theme-light .style-4 .subscribe form a {
+    background: #000000;
+}
+.theme-light .style-4 .content, .style-4 .logo, .theme-light .style-4 .social li a  {
+    color: #000000;
+}
+.theme-light .style-4 .subscribe form input, .theme-light .style-4 .subscribe form a {
+    border-color: #000000;
+}
+/*Theme Dark */
+.theme-dark .style-2 .content {
+    background: #1d1b25;
+}
+.theme-dark .modal-content {
+    background-color: #1d1b25;
+}
+.theme-dark .style-2 .content, .theme-dark .style-3 .content {
+    background: #1d1b25;
+}
+.theme-dark .style-3 .subscribe form a {
+    background: #1d1b25;
+}
+.theme-dark .style-3 .subscribe form a:hover {
+    border: 2px solid #1d1b25;
+}
+.theme-dark .style-4 .content, .style-4 .logo, .theme-dark .style-4 .social li a  {
+    color: #1d1b25;
+}
+.theme-dark .style-4 .bg::before, .theme-dark .style-4 .subscribe form a, .theme-dark .style-8 .subscribe form a {
+    background: #1d1b25;
+}
+.theme-dark .style-4 .subscribe form input, .theme-dark .style-8 .subscribe form input, .theme-dark .style-4 .subscribe form a, .theme-dark .style-8 .subscribe form a {
+    border-color: #1d1b25;
+}
+.theme-dark .style-8 .logo, .theme-dark .style-8 .main-content, .theme-dark .style-8 .main-content h5, .theme-dark .style-8 .social li a  {
+    color: #000000;
+}
+/*particle-canvas*/
+#particle-canvas {
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
